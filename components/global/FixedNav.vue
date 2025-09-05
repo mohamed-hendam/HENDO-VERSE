@@ -42,7 +42,7 @@ const theme = useTheme();
 const isDark = computed(() => theme.global.name.value === "dark");
 
 const logoImage = computed(() =>
-  isDark.value ? "/images/logo11.png" : "/images/logo22.png"
+  isDark.value ? "/public/images/logo11.png" : "/public/images/logo22.png"
 );
 </script>
 

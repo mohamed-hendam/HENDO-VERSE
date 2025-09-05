@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="2" class="image">
-          <img :src="logoImage" alt="Logo"
+          <img src="/public/images/Logo11.png" alt="Logo"
         /></v-col>
         <v-col cols=""></v-col>
         <v-col cols="7" lg="6" class="pages-main">
