@@ -2,7 +2,9 @@
   <div class="res-home-nav">
     <v-container>
       <v-row>
-        <v-col cols="6" class="image"> <img src="/images/logo.png" /></v-col>
+        <v-col cols="6" class="image">
+          <img :src="logoImage" alt="Logo"
+        /></v-col>
         <v-col cols="6" class="icons">
           <div class="icon">
             <v-app-bar-nav-icon @click="open"></v-app-bar-nav-icon>
@@ -18,6 +20,10 @@ const { $emitter } = useNuxtApp();
 const open = () => {
   $emitter.emit("toggleDrawer");
 };
+
+const logoImage = computed(() =>
+  isDark.value ? "/images/logo.png" : "/images/logo.png"
+);
 </script>
 
 <style lang="scss" scoped>
