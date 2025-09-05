@@ -24,7 +24,7 @@ import { useTheme } from "vuetify";
 const theme = useTheme();
 const isDark = computed(() => theme.global.name.value === "dark");
 const logoImage = computed(() =>
-  isDark.value ? "/images/logo.png" : "/images/logo.png"
+  isDark.value ? "/images/logo11.png" : "/images/logo11.png"
 );
 </script>
 
