@@ -43,7 +43,7 @@ const theme = useTheme();
 
 const isDark = computed(() => theme.global.name.value === "dark");
 
-import logoDark from "~/assets/images/logo11.png";
+import logoDark from "~/assets/images/logo.png";
 import logoLight from "~/assets/images/logo22.png";
 </script>
 
