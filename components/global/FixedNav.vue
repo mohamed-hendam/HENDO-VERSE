@@ -3,10 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="2" class="image">
-          <img
-            :src="
-              isDark ? '/images/logo11.png' : '/images/logo22.png'
-            "
+          <img :src="isDark ? logoDark : logoLight"
         /></v-col>
         <v-col cols=""></v-col>
         <v-col cols="7" lg="6" class="pages-main">
@@ -46,9 +43,8 @@ const theme = useTheme();
 
 const isDark = computed(() => theme.global.name.value === "dark");
 
-// const logoImage = computed(() =>
-
-// );
+import logoDark from "~/assets/images/logo11.png";
+import logoLight from "~/assets/images/logo22.png";
 </script>
 
 <style lang="scss" scoped>
