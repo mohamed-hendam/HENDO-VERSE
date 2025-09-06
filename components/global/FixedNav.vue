@@ -2,9 +2,14 @@
   <div class="fixed-nav">
     <v-container>
       <v-row>
-        <v-col cols="2" class="image"> <img :src="logoImage" /></v-col>
+        <v-col cols="2" class="image">
+          <img
+            :src="isDark ? '/images/logo11.png' : '/images/logo22.png'"
+            alt="Logo"
+          />
+        </v-col>
         <v-col cols=""></v-col>
-        <v-col cols="7" lg="6"  class="pages-main">
+        <v-col cols="7" lg="6" class="pages-main">
           <nuxt-link to="/" class="link">Home</nuxt-link>
           <nuxt-link to="/watchlist" class="link">Watchlist</nuxt-link>
 
@@ -40,10 +45,6 @@ import { useTheme } from "vuetify";
 const theme = useTheme();
 
 const isDark = computed(() => theme.global.name.value === "dark");
-
-const logoImage = computed(() =>
-  isDark.value ? "/public/images/logo11.png" : "/public/images/logo22.png"
-);
 </script>
 
 <style lang="scss" scoped>
