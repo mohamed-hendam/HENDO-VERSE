@@ -84,7 +84,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Explore our wide variety of categories",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
   $gsap.to(".p-category", {
@@ -93,8 +93,8 @@ onMounted(() => {
       start: "top 50%",
       toggleActions: "play none none none",
     },
-    text: "With Hendo Verse, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.",
-    duration: 2,
+    text: " Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new",
+    duration: 1,
     ease: "linear",
   });
 });

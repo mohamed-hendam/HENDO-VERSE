@@ -20,8 +20,7 @@
 
 <script setup>
 const showScrollNav = ref(false);
-const windowWidth = ref(0);
-
+const windowWidth = ref();
 const handleScroll = () => {
   showScrollNav.value = window.scrollY > 100;
 };

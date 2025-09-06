@@ -183,7 +183,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Frequently Asked Questions",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
   $gsap.to(".p-questions", {
@@ -193,7 +193,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about Hendo Verse.",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
 });

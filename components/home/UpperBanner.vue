@@ -58,7 +58,7 @@ const isDark = computed(() => theme.global.name.value === "dark");
 const bannerImage = computed(() =>
   isDark.value ? "/images/Container2.png" : "/images/Container2.jpg"
 );
-const windowWidth = ref(0);
+const windowWidth = ref();
 onMounted(() => {
   windowWidth.value = window.innerWidth;
   window.addEventListener("resize", () => {
@@ -66,7 +66,7 @@ onMounted(() => {
   });
 
   const fadeUp = (selector, trigger = selector, start = "top 100%") => {
-    $gsap.set(selector, { opacity: 0, y: 50 });
+    $gsap.set(selector, { opacity: 0, y: 100 });
     $gsap.to(selector, {
       scrollTrigger: {
         trigger,

@@ -120,7 +120,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Choose the plan that's right for you",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
   $gsap.to(".p-plan", {
@@ -130,7 +130,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Join Hendo Verse and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
 });

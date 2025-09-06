@@ -3,6 +3,7 @@
     <v-container>
       <h1 class="h1-provide">.</h1>
       <p class="p-provide">.</p>
+      <p class="p-provide-res">.</p>
       <div class="card">
         <v-row>
           <v-col cols="12" md="6" lg="4">
@@ -477,7 +478,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "We Provide you streaming experience across various devices.",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
   $gsap.to(".p-provide", {
@@ -487,7 +488,17 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "With Hendo Verse, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment",
-    duration: 2,
+    duration: 1.5,
+    ease: "linear",
+  });
+  $gsap.to(".p-provide-res", {
+    scrollTrigger: {
+      trigger: ".p-provide-res",
+      start: "top 50%",
+      toggleActions: "play none none none",
+    },
+    text: "With Hendo Verse, you can enjoy your favorite movies and TV shows anytime, anywhere.",
+    duration: 1,
     ease: "linear",
   });
 });
@@ -502,6 +513,12 @@ onMounted(() => {
   }
   p {
     color: rgb(var(--v-theme-main60));
+  }
+  .p-provide {
+    display: block;
+  }
+  .p-provide-res {
+    display: none;
   }
   .card {
     padding: 20px 10px;
@@ -551,6 +568,12 @@ onMounted(() => {
     }
     p {
       padding: 5px 10px;
+    }
+    .p-provide {
+      display: none;
+    }
+    .p-provide-res {
+      display: block;
     }
     .card {
       padding: 10px 5px;

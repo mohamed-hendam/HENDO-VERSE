@@ -51,7 +51,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: "Start your free trial today!",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
   $gsap.to(".p-freetrial", {
@@ -61,7 +61,7 @@ onMounted(() => {
       toggleActions: "play none none none",
     },
     text: " This is a clear and concise call to action that encourages users to sign up for a free trial of Hendo Verse.",
-    duration: 2,
+    duration: 1,
     ease: "linear",
   });
 });
