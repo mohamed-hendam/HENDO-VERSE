@@ -5,7 +5,7 @@
         <v-col cols="2" class="image">
           <img
             :src="
-              isDark ? '/public/images/logo11.png' : '/public/images/logo22.png'
+              isDark ? '/images/logo11.png' : '/images/logo22.png'
             "
         /></v-col>
         <v-col cols=""></v-col>
