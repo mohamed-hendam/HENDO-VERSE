@@ -1,75 +1,14 @@
-# Nuxt Minimal Starter
+# HENDO-VERSE 
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+An interactive web application built with Nuxt 3 that displays massive data about movies, TV shows, and actors.  
+The project integrates with the TMDB API to provide:
+- Detailed information about movies and TV shows (title, overview, rating, genres…)
+- Actor profiles (roles, photos, filmography)
+- Smooth and fast browsing experience powered by Nuxt 3 and Vuetify
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+ Tech Stack:
+- Nuxt 3 (Vue.js Framework)
+- Vuetify (UI Components)
+- Pinia (State Management)
+- TMDB API (Data Source)
+- Vercel (Deployment & Hosting)
