@@ -63,7 +63,7 @@
                 <span>Smartphones</span>
               </v-card-title>
               <p>
-                StreamVibe is optimized for both Android and iOS smartphones.
+                Hendo Verse is optimized for both Android and iOS smartphones.
                 Download our app from the Google Play Store or the Apple App
                 Store
               </p>
@@ -126,7 +126,7 @@
                 <span>Tablet</span>
               </v-card-title>
               <p>
-                Enjoy movies and shows on a bigger screen with StreamVibe’s
+                Enjoy movies and shows on a bigger screen with Hendo Verse’s
                 tablet-optimized experience for better viewing and control.
               </p>
             </v-card-item>
@@ -204,7 +204,7 @@
                 <span>Smart TV</span>
               </v-card-title>
               <p>
-                StreamVibe brings cinematic experiences to your Smart TV.
+                Hendo Verse brings cinematic experiences to your Smart TV.
                 Download our app and start streaming in 4K.
               </p>
             </v-card-item>
@@ -284,7 +284,7 @@
                 <span>Laptops</span>
               </v-card-title>
               <p>
-                Access StreamVibe via browser or app on your laptop for full
+                Access Hendo Verse via browser or app on your laptop for full
                 control, more flexibility, and a larger viewing experience
               </p>
             </v-card-item>
@@ -362,8 +362,8 @@
                 <span>Gaming Consoles</span>
               </v-card-title>
               <p>
-                Watch and play! StreamVibe supports major gaming consoles so you
-                can switch between games and shows seamlessly.
+                Watch and play! Hendo Verse supports major gaming consoles so
+                you can switch between games and shows seamlessly.
               </p>
             </v-card-item>
           </v-col>
@@ -440,7 +440,7 @@
                 <span>VR Headsets</span>
               </v-card-title>
               <p>
-                Enter a new dimension with StreamVibe on VR headsets. Immersive
+                Enter a new dimension with Hendo Verse on VR headsets. Immersive
                 entertainment like never before.
               </p>
             </v-card-item>
@@ -486,7 +486,7 @@ onMounted(() => {
       start: "top 50%",
       toggleActions: "play none none none",
     },
-    text: "With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment",
+    text: "With Hendo Verse, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment",
     duration: 2,
     ease: "linear",
   });

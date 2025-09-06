@@ -13,10 +13,10 @@
                 class="title"
               >
                 <span class="num"> 01 </span>
-                What is StreamVibe?
+                What is Hendo Verse?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
-                StreamVibe is a streaming platform that lets you watch movies,
+                Hendo Verse is a streaming platform that lets you watch movies,
                 series, and exclusive content anytime, anywhere on demand.
               </v-expansion-panel-text>
             </v-expansion-panel>
@@ -30,7 +30,7 @@
                 class="title"
               >
                 <span class="num"> 05 </span>
-                How do I sign up for StreamVibe?
+                How do I sign up for Hendo Verse?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
                 Just visit our website or download the app, click on “Sign Up”,
@@ -50,10 +50,10 @@
                 class="title"
               >
                 <span class="num"> 02 </span>
-                How much does StreamVibe cost?
+                How much does Hendo Verse cost?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
-                StreamVibe offers multiple subscription plans to fit different
+                Hendo Verse offers multiple subscription plans to fit different
                 needs and budgets. You can check the pricing page for the latest
                 details.
               </v-expansion-panel-text>
@@ -68,10 +68,10 @@
                 class="title"
               >
                 <span class="num"> 06 </span>
-                What is the StreamVibe free trial?
+                What is the Hendo Verse free trial?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
-                StreamVibe offers a free trial period for new users to explore
+                Hendo Verse offers a free trial period for new users to explore
                 the platform and enjoy full access before subscribing.
               </v-expansion-panel-text>
             </v-expansion-panel>
@@ -88,11 +88,12 @@
                 class="title"
               >
                 <span class="num"> 03 </span>
-                What content is available on StreamVibe?
+                What content is available on Hendo Verse?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
-                StreamVibe gives you access to a wide range of content including
-                blockbuster movies, trending series, documentaries, and more.
+                Hendo Verse gives you access to a wide range of content
+                including blockbuster movies, trending series, documentaries,
+                and more.
               </v-expansion-panel-text>
             </v-expansion-panel>
             <div class="line"></div>
@@ -105,7 +106,7 @@
                 class="title"
               >
                 <span class="num"> 07 </span>
-                What is the StreamVibe free trial?
+                What is the Hendo Verse free trial?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
                 You can contact our support team through the Help Center on our
@@ -125,11 +126,12 @@
                 class="title"
               >
                 <span class="num"> 04 </span>
-                How can I watch StreamVibe?
+                How can I watch Hendo Verse?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
-                You can watch StreamVibe on smartphones, tablets, laptops, smart
-                TVs, and other supported devices via our app or web browser.
+                You can watch Hendo Verse on smartphones, tablets, laptops,
+                smart TVs, and other supported devices via our app or web
+                browser.
               </v-expansion-panel-text>
             </v-expansion-panel>
           </v-col>
@@ -141,7 +143,7 @@
                 class="title"
               >
                 <span class="num"> 08 </span>
-                What are the StreamVibe payment methods?
+                What are the Hendo Verse payment methods?
               </v-expansion-panel-title>
               <v-expansion-panel-text>
                 We support various payment methods including credit/debit cards,
@@ -190,7 +192,7 @@ onMounted(() => {
       start: "top 50%",
       toggleActions: "play none none none",
     },
-    text: "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.",
+    text: "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about Hendo Verse.",
     duration: 2,
     ease: "linear",
   });

@@ -15,7 +15,7 @@
               <th>Premium</th>
             </tr>
           </thead>
-          
+
           <tbody>
             <tr>
               <td>Price</td>
@@ -334,7 +334,7 @@ onMounted(() => {
       start: "top 90%",
       toggleActions: "play none none none",
     },
-    text: "StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you.",
+    text: "Hendo Verse offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you.",
     duration: 3,
     ease: "power1.out",
   });

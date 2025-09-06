@@ -60,7 +60,7 @@ onMounted(() => {
       start: "top 50%",
       toggleActions: "play none none none",
     },
-    text: " This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.",
+    text: " This is a clear and concise call to action that encourages users to sign up for a free trial of Hendo Verse.",
     duration: 2,
     ease: "linear",
   });
