@@ -1,7 +1,7 @@
 <template>
   <div class="res-drawer">
     <v-navigation-drawer v-model="openDrawer">
-      <v-list-item class="image"> <img :src="logoImage" alt="" /></v-list-item>
+      <v-list-item class="image"> <img src="/images/Logo.png" /></v-list-item>
       <v-divider></v-divider>
 
       <div class="theme-toggle">
@@ -44,11 +44,6 @@
 <script setup>
 import { useTheme } from "vuetify";
 const theme = useTheme();
-const isDark = computed(() => theme.global.name.value === "dark");
-
-const logoImage = computed(() =>
-  isDark.value ? "/images/logo11.png" : "/public/images/logo22.png"
-);
 
 const { $emitter } = useNuxtApp();
 const openDrawer = ref(false);

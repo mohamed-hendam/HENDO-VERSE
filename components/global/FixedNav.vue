@@ -3,10 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="2" class="image">
-          <img
-            :src="isDark ? '/images/logo11.png' : '/images/logo22.png'"
-            alt="Logo"
-          />
+          <img src="/images/Logo.png" />
         </v-col>
         <v-col cols=""></v-col>
         <v-col cols="7" lg="6" class="pages-main">
@@ -43,8 +40,6 @@
 import { useTheme } from "vuetify";
 
 const theme = useTheme();
-
-const isDark = computed(() => theme.global.name.value === "dark");
 </script>
 
 <style lang="scss" scoped>

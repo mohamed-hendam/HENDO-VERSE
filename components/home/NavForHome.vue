@@ -2,9 +2,7 @@
   <div class="home-nav">
     <v-container>
       <v-row>
-        <v-col cols="2" class="image">
-          <img src="/public/images/Logo11.png" alt="Logo"
-        /></v-col>
+        <v-col cols="2" class="image"> <img src="/images/Logo.png" /></v-col>
         <v-col cols=""></v-col>
         <v-col cols="7" lg="6" class="pages-main">
           <nuxt-link to="/" class="link">Home</nuxt-link>
@@ -39,10 +37,7 @@
 import { useTheme } from "vuetify";
 
 const theme = useTheme();
-const isDark = computed(() => theme.global.name.value === "dark");
-const logoImage = computed(() =>
-  isDark.value ? "/images/logo11.png" : "/images/logo11.png"
-);
+
 onMounted(() => {
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme) {

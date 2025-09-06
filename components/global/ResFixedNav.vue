@@ -2,7 +2,7 @@
   <div class="responsive-fixed-nav">
     <v-container>
       <v-row>
-        <v-col cols="6" class="image"> <img :src="logoImage" /></v-col>
+        <v-col cols="6" class="image"> <img src="/images/Logo.png" /></v-col>
         <v-col cols="6" class="icons">
           <div class="icon">
             <v-app-bar-nav-icon @click="open"></v-app-bar-nav-icon>
@@ -18,10 +18,6 @@ const { $emitter } = useNuxtApp();
 const open = () => {
   $emitter.emit("toggleDrawer");
 };
-
-import { useTheme } from "vuetify";
-const theme = useTheme();
-const isDark = computed(() => theme.global.name.value === "dark");
 
 const logoImage = computed(() =>
   isDark.value ? "/images/logo11.png" : "/images/logo22.png"

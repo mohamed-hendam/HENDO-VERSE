@@ -2,9 +2,7 @@
   <div class="res-home-nav">
     <v-container>
       <v-row>
-        <v-col cols="6" class="image">
-          <img :src="logoImage" alt="Logo"
-        /></v-col>
+        <v-col cols="6" class="image"> <img src="/images/Logo.png" /></v-col>
         <v-col cols="6" class="icons">
           <div class="icon">
             <v-app-bar-nav-icon @click="open"></v-app-bar-nav-icon>
@@ -22,10 +20,6 @@ const open = () => {
 };
 import { useTheme } from "vuetify";
 const theme = useTheme();
-const isDark = computed(() => theme.global.name.value === "dark");
-const logoImage = computed(() =>
-  isDark.value ? "/images/logo11.png" : "/images/logo11.png"
-);
 </script>
 
 <style lang="scss" scoped>
