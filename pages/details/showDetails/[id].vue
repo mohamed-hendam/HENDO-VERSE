@@ -371,7 +371,6 @@ useHead({
 
 import { useWatchlist } from "@/composables/useLocalStorage";
 const { watchlist, add, remove, isSaved } = useWatchlist();
-const dialog = ref(false);
 
 const containerRef = ref(null);
 const containerRef1 = ref(null);
@@ -382,6 +381,7 @@ const swiper1 = useSwiper(containerRef1);
 const swiper22 = useSwiper(containerRef22);
 const swiper3 = useSwiper(containerRef3);
 
+const dialog = ref(false);
 const route = useRoute();
 const showId = route.params.id;
 const config = useRuntimeConfig();

@@ -106,10 +106,10 @@
               <div class="main-moving">
                 <h1>Reviews</h1>
                 <div class="moving-btns">
-                  <v-btn @click="swiper22.prev()">
+                  <v-btn @click="swiper2.prev()">
                     <i class="fa-solid fa-arrow-left"></i>
                   </v-btn>
-                  <v-btn @click="swiper22.next()">
+                  <v-btn @click="swiper2.next()">
                     <i class="fa-solid fa-arrow-right"></i>
                   </v-btn>
                 </div>
@@ -319,6 +319,13 @@ useHead({
 import { useWatchlist } from "@/composables/useLocalStorage";
 
 const { watchlist, add, remove, isSaved } = useWatchlist();
+
+const containerRef = ref(null);
+const containerRef2 = ref(null);
+const containerRef3 = ref(null);
+const swiper = useSwiper(containerRef);
+const swiper2 = useSwiper(containerRef2);
+const swiper3 = useSwiper(containerRef3);
 
 const dialog = ref(false);
 const route = useRoute();
