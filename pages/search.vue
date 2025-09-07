@@ -25,7 +25,7 @@
 
 <script setup>
 definePageMeta({
-  layout: "pages-layoutt",
+  layout: "pages-layout",
 });
 
 useHead({
