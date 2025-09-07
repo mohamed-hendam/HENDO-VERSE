@@ -115,7 +115,7 @@
                 </div>
               </div>
               <swiper-container
-                ref="containerRef22"
+                ref="containerRef2"
                 slides-per-view="auto"
                 class="swiper-container"
                 space-between="10"
