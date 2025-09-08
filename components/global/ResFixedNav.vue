@@ -2,7 +2,9 @@
   <div class="responsive-fixed-nav">
     <v-container>
       <v-row>
-        <v-col cols="6" class="image"> <img src="/images/Logo.png" /></v-col>
+        <v-col cols="6" class="image">
+          <NuxtLink to="/"><img src="/images/Logo.png" /></NuxtLink
+        ></v-col>
         <v-col cols="6" class="icons">
           <div class="icon">
             <v-app-bar-nav-icon @click="open"></v-app-bar-nav-icon>

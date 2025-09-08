@@ -99,6 +99,9 @@ onMounted(() => {
     transform: translateX(-50%);
     img {
       width: 100%;
+      animation: spin 2s ease-out 3;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
     }
   }
   .landing {
@@ -122,6 +125,14 @@ onMounted(() => {
       height: 50px;
       border-radius: 10px;
     }
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
