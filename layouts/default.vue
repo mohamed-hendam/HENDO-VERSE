@@ -2,18 +2,18 @@
   <div class="home-layout">
     <v-app>
       <transition name="fade">
-        <FixedNav v-if="showScrollNav && windowWidth > 992" />
+        <LazyFixedNav v-if="showScrollNav && windowWidth > 992" />
       </transition>
       <transition name="fade">
-        <ResFixedNav v-if="showScrollNav && windowWidth <= 992" />
+        <LazyResFixedNav v-if="showScrollNav && windowWidth <= 992" />
       </transition>
-      <HomeNavForHome v-if="windowWidth > 992" />
-      <HomeResHomeNav v-if="windowWidth <= 992" />
+      <LazyHomeNavForHome v-if="windowWidth > 992" />
+      <LazyHomeResHomeNav v-if="windowWidth <= 992" />
       <Transition name="page" mode="out-in">
         <slot></slot>
       </Transition>
-      <ResDrawer />
-      <appFooter />
+      <LazyResDrawer />
+      <LazyAppFooter />
     </v-app>
   </div>
 </template>

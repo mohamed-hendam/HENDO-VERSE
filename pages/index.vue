@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <HomeUpperBanner />
-    <HomeMoviesCategory id="HomeCategories" />
-    <HomeProvide id="HomeDevices" />
-    <HomeQuestions id="HomeFAQ" />
-    <HomePlan id="HomePricing" />
-    <HomeFreeTrial />
+    <LazyHomeUpperBanner />
+    <LazyHomeMoviesCategory id="HomeCategories" />
+    <LazyHomeProvide id="HomeDevices" />
+    <LazyHomeQuestions id="HomeFAQ" />
+    <LazyHomePlan id="HomePricing" />
+    <LazyHomeFreeTrial />
   </div>
 </template>
 

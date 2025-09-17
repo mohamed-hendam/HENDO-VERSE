@@ -10,27 +10,27 @@
       </v-container>
     </div>
     <div class="moveis-shows-data" v-else>
-      <MoviesandshowsUpperBanner
+      <LazyMoviesandshowsUpperBanner
         :popularMovies="popularMovies"
         class="MoviesandshowsUpperBanner"
       />
 
       <v-container class="comp-container">
         <h1 class="main-header-movies">Movies</h1>
-        <MoviesandshowsMoviesGenres id="MoviesGenres" />
-        <MoviesandshowsMoviesPopuler :popularMovies="popularMovies" />
-        <MoviesandshowsMoviesTopRated :moviesTopRated="moviesTopRated" />
-        <MoviesandshowsMoviesNowPlaying :moviesNowPlaying="moviesNowPlaying" />
-        <MoviesandshowsMoviesUpComing :moviesUpComing="moviesUpComing" />
+        <LazyMoviesandshowsMoviesGenres id="MoviesGenres" />
+        <LazyMoviesandshowsMoviesPopuler :popularMovies="popularMovies" />
+        <LazyMoviesandshowsMoviesTopRated :moviesTopRated="moviesTopRated" />
+        <LazyMoviesandshowsMoviesNowPlaying :moviesNowPlaying="moviesNowPlaying" />
+        <LazyMoviesandshowsMoviesUpComing :moviesUpComing="moviesUpComing" />
       </v-container>
 
       <v-container class="comp-container">
         <h1 class="main-header-movies">Shows</h1>
-        <MoviesandshowsShowGenres id="ShowGenres" />
-        <MoviesandshowsShowPopuler :popularShows="popularShows" />
-        <MoviesandshowsShowonAir :showOnAir="showOnAir" />
-        <MoviesandshowsShowTopRated :showTopRated="showTopRated" />
-        <MoviesandshowsShowAiringToday :showAiringToday="showAiringToday" />
+        <LazyMoviesandshowsShowGenres id="ShowGenres" />
+        <LazyMoviesandshowsShowPopuler :popularShows="popularShows" />
+        <LazyMoviesandshowsShowonAir :showOnAir="showOnAir" />
+        <LazyMoviesandshowsShowTopRated :showTopRated="showTopRated" />
+        <LazyMoviesandshowsShowAiringToday :showAiringToday="showAiringToday" />
       </v-container>
 
       <HomeFreeTrial />
