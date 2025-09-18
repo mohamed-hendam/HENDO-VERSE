@@ -301,8 +301,8 @@
           </div>
         </v-col>
       </v-row>
-      <MoviesandshowsMoveisSimilar :similar="similar" />
-      <HomeFreeTrial />
+      <LazyMoviesandshowsMoveisSimilar :similar="similar" />
+      <LazyHomeFreeTrial />
     </v-container>
   </div>
 </template>

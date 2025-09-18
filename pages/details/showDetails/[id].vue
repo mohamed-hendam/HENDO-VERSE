@@ -354,8 +354,8 @@
           </div>
         </v-col>
       </v-row>
-      <MoviesandshowsShowSimilar :similar="similar" />
-      <HomeFreeTrial />
+      <LazyMoviesandshowsShowSimilar :similar="similar" />
+      <LazyHomeFreeTrial />
     </v-container>
   </div>
 </template>
